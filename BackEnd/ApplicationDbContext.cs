@@ -4,6 +4,9 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace HeatMaps
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class ApplicationDbContext : IdentityDbContext
     {
         //Private readonly IUserResolver

@@ -6,8 +6,9 @@ using HeatMaps.Utilities.Sales;
 
 namespace HeatMaps
 {
-    //dotnet --list-sdks
-    //dotnet --version
+   /// <summary>
+   /// 
+   /// </summary>
 
     public class Program
     {
@@ -27,13 +28,6 @@ namespace HeatMaps
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
-
-            // Configure the HTTP request pipeline.
-            //app.MapGet("/", async (MyService myService, HttpContext context) =>
-            //{
-            //    // Use the injected service
-            //    await context.Response.WriteAsync(myService.DoSomething());
-            //});
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();

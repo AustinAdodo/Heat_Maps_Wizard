@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HeatMaps.Controllers
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class ProductsController : Controller
