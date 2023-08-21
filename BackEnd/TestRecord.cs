@@ -1,9 +1,8 @@
 ﻿namespace HeatMaps
 {
-    public record TestRecord
-    {
-       "tuuuuuriiiiiing"
-        "tuuuriiing"
-    }
-    
+    //public record TestRecord
+    //{
+    //   "tuuuuuriiiiiing"
+    //    "tuuuriiing"
+    //}
 }
