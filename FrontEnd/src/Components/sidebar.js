@@ -1,5 +1,10 @@
 import React from 'react';
 
+/**
+ * Container to Inject Dependencies for services.
+ * @param {sales_Service} a - Injected Sevice into DI container.
+ * @returns {service_container} service Container.
+ */
 const Sidebar = ({ products, selectedProduct, onSelectProduct }) => {
     return (
         <div style={{ border: '1px solid #ccc', padding: '10px', width: '200px', maxHeight: '300px', overflowY: 'auto' }}>

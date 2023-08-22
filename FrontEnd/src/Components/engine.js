@@ -3,6 +3,12 @@ import * as d3 from "d3";
 import _salesService from "../Service_Container";
 
 //npm install d3
+
+/**
+ * Container to Inject Dependencies for services.
+ * @param {sales_Service} a - Injected Sevice into DI container.
+ * @returns {service_container} service Container.
+ */
 const MyComponent = () => {
   //get dates from API and attach DateArray to class
   const dates = _salesService.resolve("sales").fetchDateData();
