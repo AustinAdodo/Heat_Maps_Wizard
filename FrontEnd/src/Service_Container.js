@@ -16,4 +16,4 @@ service_container.register({
 });
 
 module.exports = service_container;
-//using jsdoc jsdoc *.js or jsdoc file1.js file2.js file3.jsfor documentation.
+//using jsdoc jsdoc *.js or jsdoc file1.js file2.js file3.jsfor documentation. jsdoc --version {npm install -g jsdoc}
