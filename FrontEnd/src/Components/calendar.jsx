@@ -7,8 +7,8 @@ const dataService = service_container.resolve('sales');
 const data = dataService.fetchDateData();
 
 /**
- * Container to Inject Dependencies for services.
- * @param {sales_Service} a - Injected Sevice into DI container.
+ * Calendar Component.
+ * @param {dataService} a - Injected Sevice into DI container.
  * @returns {service_container} service Container.
  */
   useEffect(() => {
