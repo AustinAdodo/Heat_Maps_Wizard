@@ -2,6 +2,7 @@ import React from 'react';
 
 /**
  * Container to Inject Dependencies for services.
+ * It primary purpose is to facilitate selection of fields to be rendered.
  * @param {sales_Service} a - Injected Sevice into DI container.
  * @returns {service_container} service Container.
  */
